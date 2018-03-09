@@ -17,7 +17,7 @@ can be accessed at http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint
 
 [XRd4J](https://github.com/vrk-kpa/xrd4j) is a Java library for building X-Road v6 Adapter Servers and clients.
 
-This example demonstrates how to invoke ```helloService``` example with on request parameter.
+This example demonstrates how to invoke ```helloService``` service with one request parameter.
 
 ```
 import com.pkrete.xrd4j.client.SOAPClient;
@@ -111,7 +111,7 @@ public class HelloServiceResponseDeserializer extends AbstractResponseDeserializ
 }
 ```
 
-Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/full-samples/xrd4j.
+Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/tree/master/full-samples/xrd4j.
 
 ## JavaScript
 
@@ -120,7 +120,7 @@ Sample code is available at https://github.com/nordic-institute/X-Road-code-samp
 [node-soap](https://github.com/vpulim/node-soap) is a Node module that lets you
 connect to web services using SOAP.
 
-This example demonstrates how to invoke ```getRandom``` example with no request parameters.
+This example demonstrates how to invoke ```getRandom``` service with no request parameters.
 Sample client (```index.js```):
 
 ```
@@ -187,4 +187,4 @@ Adapter Example service returns a random number.
 { data: '8' }
 ```
 
-Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/full-samples/node-soap.
+Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/tree/master/full-samples/node-soap.

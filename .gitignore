@@ -30,3 +30,4 @@ package-lock.json
 .idea/
 target/
 *.iml
+dependency-reduced-pom.xml
