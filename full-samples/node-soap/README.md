@@ -1,6 +1,6 @@
 # node-soap
 
-This example demonstrates how to invoke Adapter Example ```getRandom``` service
+This example demonstrates how to invoke Example Adapter ```getRandom``` service
 with no request parameters.
 
 ## Software Requirements
@@ -10,7 +10,7 @@ with no request parameters.
 
 ## How to Try
 
-Checkout the code, update the correct Adapter Example service URL in ```index.js:2```,
+Checkout the code, update the correct Example Adapter service URL in ```index.js:2```,
 install dependencies and run the code.
 
 ```

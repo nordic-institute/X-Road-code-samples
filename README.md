@@ -174,14 +174,14 @@ $ touch index.js
 # Copy the code snippet below in index.js and update the adapter URL (x.x.x)
 ```
 
-Make sure that the Adapter Example service is running and that the service
+Make sure that the Example Adapter service is running and that the service
 URL used in the code is correct. Then run the client:
 
 ```
 $ node index.js
 ```
 
-Adapter Example service returns a random number.
+Example Adapter service returns a random number.
 
 ```
 { data: '8' }
