@@ -11,6 +11,18 @@ service. Another alternative for development/testing is [X-Road Test Service](ht
 this repository use Example Adapter service. Once started the Example Adapter service
 can be accessed at http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint where **x.x.x needs to be replaced with the current version number**.
 
+## Prerequisites
+
+Setup [Example Adapter](https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter) service:
+
+* Clone the repository, compile the XRd4J library, compile Example Adapter, start Example Adapter.
+OR
+* Use Example Adapter Docker [image](https://hub.docker.com/r/niis/example-adapter/).
+
+```
+docker run -p 8080:8080 niis/example-adapter
+```
+
 ## Java
 
 ### XRd4J
