@@ -7,7 +7,7 @@ there are examples available in Java and JavaScript.
 
 You can get started with development and testing without your own Security Server
 installation using [Example Adapter](https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter)
-service. Another alternative for development/testing is [X-Road Test Service](https://github.com/petkivim/x-road-test-service). All the examples in this repository use Example Adapter service. 
+service. Another alternative for development/testing is [X-Road Test Service](https://github.com/petkivim/x-road-test-service). All the examples in this repository use Example Adapter service.
 
 ## Prerequisites
 
@@ -203,3 +203,7 @@ Example Adapter service returns a random number.
 ```
 
 Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/tree/master/full-samples/node-soap.
+
+## Credits
+
+The samples were originally created by Karri Niemelä (https://github.com/kakoni) in 2016. In January 2018 it was agreed that the [Nordic Institute for Interoperability](https://niis.org) (NIIS) takes over the responsibility for maintenance and further development.
