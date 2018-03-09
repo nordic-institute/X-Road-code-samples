@@ -14,11 +14,11 @@
             <param name="ConversionPattern" value="%m"/>
         </layout>
     </appender>
-    <logger name="com.pkrete.xrd4j.common" additivity="false">
+    <logger name="fi.vrk.xrd4j.common" additivity="false">
         <level value="WARN"/>
         <appender-ref ref="console"/>
     </logger>
-    <logger name="com.pkrete.xrd4j.client" additivity="false">
+    <logger name="fi.vrk.xrd4j.client" additivity="false">
         <level value="ERROR"/>
         <appender-ref ref="console"/>
     </logger>
@@ -26,7 +26,7 @@
         <level value="WARN"/>
         <appender-ref ref="console"/>
     </logger>
-    <logger name="org.nii.xrd4j_example_client.log" additivity="false">
+    <logger name="org.niis.xrd4j_example_client.log" additivity="false">
         <level value="INFO"/>
         <appender-ref ref="console"/>
     </logger>
