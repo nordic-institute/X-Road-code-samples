@@ -1,0 +1,22 @@
+{
+  "name": "node-soap-sample",
+  "version": "1.0.0",
+  "description": "This example shows how to create a simple X-Road client with Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordic-institute/X-Road-code-samples.git"
+  },
+  "author": "Petteri Kivimäki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nordic-institute/X-Road-code-samples/issues"
+  },
+  "homepage": "https://github.com/nordic-institute/X-Road-code-samples#readme",
+  "dependencies": {
+    "soap": "^0.23.0"
+  }
+}
