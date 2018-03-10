@@ -1,3 +1,5 @@
+![X-Road Logo](/img/x-road_logo.png "X-Road Logo")
+
 # X-Road Code Samples
 
 This repository provides X-Road code samples that show how to consume services
