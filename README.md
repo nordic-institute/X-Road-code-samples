@@ -206,4 +206,4 @@ Sample code is available at https://github.com/nordic-institute/X-Road-code-samp
 
 ## Credits
 
-The samples were originally created by Karri Niemelä (https://github.com/kakoni) in 2016. In January 2018 it was agreed that the [Nordic Institute for Interoperability Solutions](https://niis.org) (NIIS) takes over the responsibility for maintenance and further development.
+The material was originally created by Jarkko Moilanen (https://github.com/kyyberi) and Karri Niemelä (https://github.com/kakoni) in 2016. In January 2018 it was agreed that the [Nordic Institute for Interoperability Solutions](https://niis.org) (NIIS) takes over the responsibility for maintenance and further development.
