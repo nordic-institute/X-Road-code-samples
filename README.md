@@ -1,4 +1,4 @@
-![X-Road Logo](/img/x-road_logo.png "X-Road Logo")
+<img src="https://raw.githubusercontent.com/nordic-institute/X-Road-code-samples/master/img/x-road_logo.png" width="400" title="X-Road Logo">
 
 # X-Road Code Samples
 
