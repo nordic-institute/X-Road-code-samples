@@ -1,4 +1,4 @@
-package org.niis.xrd4j_example_client;
+package org.niis.wsimport_example_client;
 
 import com.sun.xml.ws.api.message.Headers;
 import org.niis.ws.TestService;

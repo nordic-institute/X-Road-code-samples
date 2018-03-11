@@ -14,7 +14,7 @@
             <param name="ConversionPattern" value="%d{dd.MM.yyyy HH:mm:ss} %-5p %c{1} : %m%n"/>
         </layout>
     </appender>
-    <logger name="org.niis.xrd4j_example_client.log" additivity="false">
+    <logger name="org.niis.wsimport_example_client.log" additivity="false">
         <level value="INFO"/>
         <appender-ref ref="console"/>
     </logger>

@@ -77,7 +77,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.niis.xrd4j_example_client.Main</mainClass>
+                            <mainClass>org.niis.wsimport_example_client.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
