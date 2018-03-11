@@ -130,6 +130,76 @@ public class HelloServiceResponseDeserializer extends AbstractResponseDeserializ
 
 Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/tree/master/full-samples/xrd4j.
 
+### wsimport
+
+[Wsimport](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/wsimport.html) is a Java tool
+for generating the required Java artifacts for invoking a SOAP service. Wsimport
+uses the WSDL description of the service for artifact generation.
+
+This example demonstrates how to use wsimport tool for generating the client
+code and invoking Example Adapter ```helloService``` service with one request
+parameter.
+
+```
+TestService service = new TestService();
+TestServicePortType port = service.getTestServicePort();
+WSBindingProvider bp = (WSBindingProvider) port;
+
+SOAPFactory factory = SOAPFactory.newInstance();
+
+SOAPElement clientHeader = factory.createElement(new QName("http://x-road.eu/xsd/xroad.xsd", "client"));
+clientHeader.addNamespaceDeclaration("id", "http://x-road.eu/xsd/identifiers");
+clientHeader.addAttribute(new QName("", "objectType", "id"), "SUBSYSTEM");
+
+SOAPElement sdsbInstance = clientHeader.addChildElement("xRoadInstance", "id");
+sdsbInstance.addTextNode("NIIS-TEST");
+
+SOAPElement memberClass = clientHeader.addChildElement("memberClass", "id");
+memberClass.addTextNode("GOV");
+
+SOAPElement memberCode = clientHeader.addChildElement("memberCode", "id");
+memberCode.addTextNode("1234567-8");
+
+SOAPElement subsystem = clientHeader.addChildElement("subsystemCode", "id");
+subsystem.addTextNode("TestClient");
+
+// Service soap header
+SOAPElement serviceHeader = factory.createElement(new QName("http://x-road.eu/xsd/xroad.xsd", "service"));
+serviceHeader.addNamespaceDeclaration("id", "http://x-road.eu/xsd/identifiers");
+
+serviceHeader.addAttribute(new QName("", "objectType", "id"), "SERVICE");
+
+sdsbInstance = serviceHeader.addChildElement("xRoadInstance", "id");
+sdsbInstance.addTextNode("NIIS-TEST");
+
+memberClass = serviceHeader.addChildElement("memberClass", "id");
+memberClass.addTextNode("GOV");
+
+memberCode = serviceHeader.addChildElement("memberCode", "id");
+memberCode.addTextNode("1234567-8");
+
+subsystem = serviceHeader.addChildElement("subsystemCode", "id");
+subsystem.addTextNode("DemoService");
+
+SOAPElement serviceCode = serviceHeader.addChildElement("serviceCode", "id");
+serviceCode.addTextNode("helloService");
+
+SOAPElement serviceVersion = serviceHeader.addChildElement("serviceVersion", "id");
+serviceVersion.addTextNode("v1");
+
+bp.setOutboundHeaders(
+    Headers.create(clientHeader),
+    Headers.create(serviceHeader),
+    Headers.create(new QName("http://x-road.eu/xsd/xroad.xsd", "id"), "12345"),
+    Headers.create(new QName("http://x-road.eu/xsd/xroad.xsd", "userId"), "jdoe"),
+    Headers.create(new QName("http://x-road.eu/xsd/xroad.xsd", "protocolVersion"), "4.0")
+);
+// Call helloService
+logger.info(port.helloService("Test User"));
+```
+
+Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/tree/master/full-samples/wsimport.
+
 ## JavaScript
 
 ### node-soap
