@@ -22,10 +22,6 @@
         <level value="ERROR"/>
         <appender-ref ref="console"/>
     </logger>
-    <logger name="java.lang.Runnable" additivity="false">
-        <level value="WARN"/>
-        <appender-ref ref="console"/>
-    </logger>
     <logger name="org.niis.xrd4j_example_client.log" additivity="false">
         <level value="INFO"/>
         <appender-ref ref="console"/>
