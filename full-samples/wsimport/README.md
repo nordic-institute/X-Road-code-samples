@@ -16,7 +16,7 @@ Checkout the code, start Example Adapter service, run wsimport tool, build
 the project and run the generated jar.
 
 1. Start Example Adapter service: `docker run -p 8080:8080 niis/example-adapter`
-2. Run the wsimport tool: `wsimport -keep -p org.niis.ws http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint?wsdl -Xnocompile -d src/main/java/``
+2. Run the wsimport tool: `wsimport -keep -p org.niis.ws http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint?wsdl -Xnocompile -d src/main/java/`
 3. Build the project: `mvn clean install`
 4. Run the generated jar: `java -jar target/wsimport-example-client-0.0.1-SNAPSHOT.jar`
 
