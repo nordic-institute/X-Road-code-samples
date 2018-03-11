@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 public class Main {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
-    private static String url = "http://localhost:8080/example-adapter-0.0.5-SNAPSHOT/Endpoint";
+    private static String url = "http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint";
 
     public static void main(String[] args) {
         try {
