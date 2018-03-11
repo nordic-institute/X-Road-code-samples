@@ -10,7 +10,8 @@ service with one request parameter.
 
 ## How to Try
 
-Checkout the code, update the correct Example Adapter service URL in ```Main.java:18```, compile the code and execute
+Checkout the code, start Example Adapter service, update the correct Example
+Adapter service URL in ```Main.java:18```, compile the code and execute
 the generated ```xrd4j-example-client-0.0.1-SNAPSHOT.jar``` file.
 
 ```

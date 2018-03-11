@@ -1,0 +1,24 @@
+# Wsimport
+
+This example demonstrates how to use wsimport tool for generating the client
+code and invoking Example Adapter ```helloService``` service with one request
+parameter. More [information](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/wsimport.html)
+about wsimport.
+
+## Software Requirements
+
+* Java 8
+* Maven 3.X
+
+## How to Try
+
+Checkout the code, start Example Adapter service, run wsimport tool, build
+the project and run the generated jar.
+
+1. Start Example Adapter service: `docker run -p 8080:8080 niis/example-adapter`
+2. Run the wsimport tool: `wsimport -keep -p org.niis.ws http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint?wsdl -Xnocompile -d src/main/java/``
+3. Build the project: `mvn clean install`
+4. Run the generated jar: `java -jar target/wsimport-example-client-0.0.1-SNAPSHOT.jar`
+
+**N.B.** The repository already contains the files created by the wsimport tool.
+Try to remove `org.niis.ws` package and run wsimport after that. 

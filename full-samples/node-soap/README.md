@@ -10,8 +10,8 @@ with no request parameters.
 
 ## How to Try
 
-Checkout the code, update the correct Example Adapter service URL in ```index.js:2```,
-install dependencies and run the code.
+Checkout the code, start Example Adapter service, update the correct Example 
+Adapter service URL in ```index.js:2```, install dependencies and run the code.
 
 ```
 $ npm install
