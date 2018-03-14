@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.niis</groupId>
-    <artifactId>wsimport-example-client</artifactId>
-    <name>Wsimport Example Client</name>
+    <artifactId>jaxws-example-client</artifactId>
+    <name>Jax-ws Example Client</name>
     <version>0.0.1-SNAPSHOT</version>
     <inceptionYear>2018</inceptionYear>
     <description>
-        Wsimport Example Client is a X-Road example client
-        application that's implemented using the wsimport tool.
+        Jax-ws Example Client is a X-Road example client
+        application that's implemented using the jax-ws API.
     </description>	
     <properties>
         <slf4j.version>1.7.25</slf4j.version>
@@ -20,8 +20,8 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.sun.xml.ws</groupId>
-            <artifactId>jaxws-rt</artifactId>
+            <groupId>javax.xml.ws</groupId>
+            <artifactId>jaxws-api</artifactId>
             <version>2.3.0</version>
         </dependency>
         <dependency>
@@ -76,7 +76,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.niis.wsimport_example_client.Main</mainClass>
+                            <mainClass>org.niis.jaxws_example_client.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
