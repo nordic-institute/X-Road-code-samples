@@ -31,8 +31,8 @@ public class Main {
             clientHeader.addNamespaceDeclaration("id", "http://x-road.eu/xsd/identifiers");
             clientHeader.addAttribute(new QName("", "objectType", "id"), "SUBSYSTEM");
 
-            SOAPElement sdsbInstance = clientHeader.addChildElement("xRoadInstance", "id");
-            sdsbInstance.addTextNode("NIIS-TEST");
+            SOAPElement xRoadInstance = clientHeader.addChildElement("xRoadInstance", "id");
+            xRoadInstance.addTextNode("NIIS-TEST");
 
             SOAPElement memberClass = clientHeader.addChildElement("memberClass", "id");
             memberClass.addTextNode("GOV");
@@ -49,8 +49,8 @@ public class Main {
 
             serviceHeader.addAttribute(new QName("", "objectType", "id"), "SERVICE");
 
-            sdsbInstance = serviceHeader.addChildElement("xRoadInstance", "id");
-            sdsbInstance.addTextNode("NIIS-TEST");
+            xRoadInstance = serviceHeader.addChildElement("xRoadInstance", "id");
+            xRoadInstance.addTextNode("NIIS-TEST");
 
             memberClass = serviceHeader.addChildElement("memberClass", "id");
             memberClass.addTextNode("GOV");
