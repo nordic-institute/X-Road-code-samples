@@ -296,7 +296,7 @@ SOAPMessage response = dispatch.invoke(request);
 logger.info("{}",response.getSOAPBody().getChildNodes().item(0).getChildNodes().item(0).getTextContent());
 ```
 
-Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/tree/master/full-samples/jax-ws.
+Sample code is available at https://github.com/nordic-institute/X-Road-code-samples/tree/master/full-samples/jaxws.
 
 ## JavaScript
 
