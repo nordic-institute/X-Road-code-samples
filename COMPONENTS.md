@@ -17,7 +17,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [X-Road Test Service](#x-road-test-service)
 * [X-Road Test Client](#x-road-test-client)
 * [Qure Data Management Platform](#qure-data-management-platform)
-
+* [X-Road X-Road File Service](#x-road-file-service)
 
 ## X-Road Portal MISP2
 
@@ -414,3 +414,35 @@ The component can be run on Linux / Windows as a standalone JAR (Java 7 or later
 **Technology used:** Java, JavaScript.
 
 **Component requirements:** WildFly 10, PostgreSQL 9.5+, Linux, Java 8. X-Road version 5 supported, version 6 support is in development.
+
+## X-Road File Service
+
+**Component type**:
+Adapter.
+
+**Description**:
+X-Road File Service is a sample web service for transferring files over X-Road. Currently supports only serving files. The file contents are returned using MTOM.
+
+**Developer**:
+Finnish Population Register Centre (VRK)
+
+**Contact info**:
+-
+
+**Download location**:
+https://github.com/vrk-kpa/xroad-fileservice
+
+**Documentation**:
+https://github.com/vrk-kpa/xroad-fileservice
+
+**Development stage**:
+Up-to-date, last updated 01/2018.
+
+**Licence**:
+The MIT License (MIT). https://github.com/vrk-kpa/xroad-fileservice/blob/master/LICENSE
+
+**Technology used**:
+Java.
+
+**Component requirements**:
+Requires JDK 8 to build and JRE 8 to run.
