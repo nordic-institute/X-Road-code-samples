@@ -9,7 +9,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [X-Road Personal Data Monitor](#x-road-personal-data-monitor)
 * [X-Road Generator (X-tee .NET)](#x-road-generator-x-road-net)
 * [J-road](#j-road)
-* [REST-Gateway](#rest-gateway)
+* [REST Adapter Service](#rest-adapter-service)
 * [XRd4J](#xrd4j)
 * [SAP PI X-Road Adapter](#sap-pi-x-road-adapter)
 * [XRDv4WSDLConverter](#xrdv4wsdlconverter)
@@ -17,7 +17,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [X-Road Test Service](#x-road-test-service)
 * [X-Road Test Client](#x-road-test-client)
 * [Qure Data Management Platform](#qure-data-management-platform)
-* [X-Road X-Road File Service](#x-road-file-service)
+* [X-Road File Service](#x-road-file-service)
 
 ## X-Road Portal MISP2
 
@@ -166,7 +166,6 @@ REST Adapter Service is a component that sits between X-Road Security Server and
 Finnish Population Register Centre (VRK)
 
 **Contact info**:
--
 
 **Download location**:
 https://github.com/vrk-kpa/REST-adapter-service
@@ -206,7 +205,6 @@ Modules:
 Finnish Population Register Centre (VRK)
 
 **Contact info**:
--
 
 **Download location**:
 https://github.com/vrk-kpa/xrd4j/
@@ -305,7 +303,6 @@ X-Road Adapter Example provides an example implementation of a web service that'
 Finnish Population Register Centre (VRK)
 
 **Contact info**:
--
 
 **Download location**:
 https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter
@@ -337,7 +334,6 @@ X-Road Test Service is a testing tool for X-Road v6.4 and above. The implementat
 Petteri Kivimäki
 
 **Contact info**:
--
 
 **Download location**:
 https://github.com/petkivim/x-road-test-service/releases
@@ -372,7 +368,6 @@ By default Test Client calls testService service of X-Road Test Service project 
 Petteri Kivimäki
 
 **Contact info**:
--
 
 **Download location**:
 https://github.com/petkivim/x-road-test-client/releases
@@ -427,7 +422,7 @@ X-Road File Service is a sample web service for transferring files over X-Road. 
 Finnish Population Register Centre (VRK)
 
 **Contact info**:
--
+
 
 **Download location**:
 https://github.com/vrk-kpa/xroad-fileservice
