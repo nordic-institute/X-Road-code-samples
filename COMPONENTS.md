@@ -146,7 +146,7 @@ https://github.com/nortal/j-road
 https://github.com/nortal/j-road
 
 **Development stage**:
-Up-to-date, last updated 20.04.2016.
+Up-to-date, last updated 01/2018.
 
 **Licence**:
 Apache License 2.0.
@@ -280,7 +280,7 @@ https://github.com/alar-saat/XRDv4WSDLConverter
 https://github.com/alar-saat/XRDv4WSDLConverter
 
 **Development stage**:
-Up-to-date, last updated 30.03.2016.
+Up-to-date, last updated 08/2016.
 
 **Licence**:
 https://github.com/alar-saat/XRDv4WSDLConverter/blob/master/LICENSE.md
@@ -345,7 +345,7 @@ https://github.com/petkivim/x-road-test-service/releases
 https://github.com/petkivim/x-road-test-service
 
 **Development stage**:
-Up-to-date, last updated April 2016.
+Up-to-date, last updated 02/2017.
 
 **Licence**:
 MIT
@@ -379,7 +379,7 @@ https://github.com/petkivim/x-road-test-client/releases
 https://github.com/petkivim/x-road-test-client
 
 **Development stage**:
-Up-to-date, last updated December 2015.
+Up-to-date, last updated 06/2017.
 
 **Licence**:
 MIT
