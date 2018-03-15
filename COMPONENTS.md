@@ -19,6 +19,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [Qure Data Management Platform](#qure-data-management-platform)
 * [X-Road File Service](#x-road-file-service)
 * [X-Road E2E Client](#x-road-e2e-client)
+* [XRdE2E](#xrde2e)
 
 ## X-Road Portal MISP2
 
@@ -474,3 +475,35 @@ Perl.
 
 **Component requirements**:
 More information about the requirements: https://github.com/vrk-kpa/xroad-e2e-client#requirements
+
+## XRdE2E
+
+**Component type**:
+Functional.
+
+**Description**:
+XRdE2E is an end-to-end monitoring tool for X-Road security servers. Monitoring of the security servers is done using the listMethods meta service. If security server sends a valid response, it means that proxy and signer components are both working fine.
+
+**Developer**:
+Petteri Kivimäki
+
+**Contact info**:
+
+
+**Download location**:
+https://github.com/petkivim/xrde2e
+
+**Documentation**:
+https://github.com/petkivim/xrde2e
+
+**Development stage**:
+Up-to-date, last updated 02/2017.
+
+**Licence**:
+The MIT License (MIT). https://github.com/petkivim/xrde2e/blob/master/LICENSE
+
+**Technology used**:
+Java, AngularJS, MongoDB, Docker.
+
+**Component requirements**:
+Requires JDK 8 to build, and JRE 8 or Docker to run.
