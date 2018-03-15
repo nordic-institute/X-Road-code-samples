@@ -18,6 +18,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [X-Road Test Client](#x-road-test-client)
 * [Qure Data Management Platform](#qure-data-management-platform)
 * [X-Road File Service](#x-road-file-service)
+* [X-Road E2E Client](#x-road-e2e-client)
 
 ## X-Road Portal MISP2
 
@@ -441,3 +442,35 @@ Java.
 
 **Component requirements**:
 Requires JDK 8 to build and JRE 8 to run.
+
+## X-Road E2E Client
+
+**Component type**:
+Functional.
+
+**Description**:
+Simple monitoring client for X-Road security server. Calls getRandom and helloService tests services though a security server and reports failures by email.
+
+**Developer**:
+Finnish Population Register Centre (VRK)
+
+**Contact info**:
+
+
+**Download location**:
+https://github.com/vrk-kpa/xroad-e2e-client
+
+**Documentation**:
+https://github.com/vrk-kpa/xroad-e2e-client
+
+**Development stage**:
+Up-to-date, last updated 07/2016.
+
+**Licence**:
+The MIT License (MIT). https://github.com/vrk-kpa/xroad-e2e-client/blob/master/LICENSE
+
+**Technology used**:
+Perl.
+
+**Component requirements**:
+More information about the requirements: https://github.com/vrk-kpa/xroad-e2e-client#requirements
