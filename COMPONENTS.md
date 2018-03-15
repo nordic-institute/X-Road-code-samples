@@ -20,6 +20,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [X-Road File Service](#x-road-file-service)
 * [X-Road E2E Client](#x-road-e2e-client)
 * [XRdE2E](#xrde2e)
+* [API Catalog](#api-catalog)
 
 ## X-Road Portal MISP2
 
@@ -507,3 +508,35 @@ Java, AngularJS, MongoDB, Docker.
 
 **Component requirements**:
 Requires JDK 8 to build, and JRE 8 or Docker to run.
+
+## API Catalog
+
+**Component type**:
+Functional.
+
+**Description**:
+API Catalog is a web portal that provides a search engine for the interfaces available on X-Road. In addition, API Catalog provides metadata about each interface in a human readable format. API Catalog is used by the Finnish National Data Exchange Layer (Suomi.fi palveluväylä) that is based on X-Road. The service is accessible at https://liityntakatalogi.suomi.fi/en_GB/.
+
+**Developer**:
+Finnish Population Register Centre (VRK)
+
+**Contact info**:
+
+
+**Download location**:
+https://github.com/vrk-kpa/api-catalog
+
+**Documentation**:
+https://github.com/vrk-kpa/api-catalog
+
+**Development stage**:
+Up-to-date, last updated 03/2018.
+
+**Licence**:
+The MIT License (MIT). https://github.com/vrk-kpa/api-catalog/blob/master/LICENSE
+
+**Technology used**:
+Perl.
+
+**Component requirements**:
+Vagrant (tested on 1.8.4), VirtualBox (tested on 5.0.20).
