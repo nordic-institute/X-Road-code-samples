@@ -24,6 +24,7 @@ Before adding new components to the list please take a look at the [Component De
 * [API Catalog](#api-catalog)
 * [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
 * [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-1604)
+* [Security Server Log Archiver](#security-server-log-archiver)
 
 ## X-Road Portal MISP2
 
@@ -607,3 +608,39 @@ Bash, systemd.
 
 **Component requirements**:
 X-Road Security Server, Ubuntu 16.04 LTS.
+
+## Security Server Log Archiver
+
+**Component type**:
+Functional.
+
+**Description**:
+This is a PHP script for archiving X-Road v6 Security Server logs over HTTP.
+In addition, the script works also with X-Road v5 Security Server.
+
+The script will create a hierarchical folder structure where the logs are
+archived. It will create folder structure with hostname, year and month.
+
+**Developer**:
+Marko Valing
+
+**Contact info**:
+https://github.com/tuudik/archiver/issues
+
+**Download location**:
+https://github.com/tuudik/archiver/
+
+**Documentation**:
+https://github.com/tuudik/archiver/
+
+**Development stage**:
+Up-to-date, last updated 03/2018.
+
+**Licence**:
+GNU General Public License v3.0. https://github.com/tuudik/archiver/blob/master/LICENSE
+
+**Technology used**:
+PHP, Nginx/Apache.
+
+**Component requirements**:
+Web server (Apache, Nginx etc), PHP.
