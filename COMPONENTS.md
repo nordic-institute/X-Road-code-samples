@@ -22,7 +22,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [XRdE2E](#xrde2e)
 * [API Catalog](#api-catalog)
 * [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
-* [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-16.04)
+* [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-1604)
 
 ## X-Road Portal MISP2
 
