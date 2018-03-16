@@ -21,6 +21,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [X-Road E2E Client](#x-road-e2e-client)
 * [XRdE2E](#xrde2e)
 * [API Catalog](#api-catalog)
+* [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
 
 ## X-Road Portal MISP2
 
@@ -540,3 +541,35 @@ Perl.
 
 **Component requirements**:
 Vagrant (tested on 1.8.4), VirtualBox (tested on 5.0.20).
+
+## X-Road v6 Global Configuration Parser
+
+**Component type**:
+Functional.
+
+**Description**:
+PHP/AJAX snippet that parses X-Road version 6 global configuration and returns information about the Security Server of the selected subsystem.
+
+**Developer**:
+Marko Valing
+
+**Contact info**:
+https://github.com/tuudik/xroad6parser/issues
+
+**Download location**:
+https://github.com/tuudik/xroad6parser
+
+**Documentation**:
+https://github.com/tuudik/xroad6parser
+
+**Development stage**:
+Up-to-date, last updated 02/2018.
+
+**Licence**:
+GNU General Public License v3.0. https://github.com/tuudik/xroad6parser/blob/master/LICENSE
+
+**Technology used**:
+Perl.
+
+**Component requirements**:
+Web server (Apache, Nginx etc), PHP.
