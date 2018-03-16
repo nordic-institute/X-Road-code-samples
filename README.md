@@ -51,8 +51,6 @@ import fi.vrk.xrd4j.common.message.ServiceRequest;
 import fi.vrk.xrd4j.common.message.ServiceResponse;
 import fi.vrk.xrd4j.common.util.MessageHelper;
 import fi.vrk.xrd4j.common.util.SOAPHelper;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 ...
 ...
 String url = "http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint";
