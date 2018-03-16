@@ -569,7 +569,7 @@ Up-to-date, last updated 02/2018.
 GNU General Public License v3.0. https://github.com/tuudik/xroad6parser/blob/master/LICENSE
 
 **Technology used**:
-Perl.
+PHP, JavaScript, AJAX.
 
 **Component requirements**:
 Web server (Apache, Nginx etc), PHP.
