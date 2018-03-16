@@ -22,6 +22,7 @@ pull request or send the component info to the NIIS by email (community at niis.
 * [XRdE2E](#xrde2e)
 * [API Catalog](#api-catalog)
 * [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
+* [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-16.04)
 
 ## X-Road Portal MISP2
 
@@ -548,7 +549,7 @@ Vagrant (tested on 1.8.4), VirtualBox (tested on 5.0.20).
 Functional.
 
 **Description**:
-PHP/AJAX snippet that parses X-Road version 6 global configuration and returns information about the Security Server of the selected subsystem.
+PHP/AJAX snippet that parses X-Road version 6 global configuration and returns information about the Security Server of the selected subsystem. **N.B.** This tool can be used only if global configuration is accessible from the Internet without restrictions.
 
 **Developer**:
 Marko Valing
@@ -573,3 +574,35 @@ PHP, JavaScript, AJAX.
 
 **Component requirements**:
 Web server (Apache, Nginx etc), PHP.
+
+## Systemd for X-Road v6 on Ubuntu 16.04
+
+**Component type**:
+Functional.
+
+**Description**:
+X-Road Security Server supports officially Ubuntu 14.04 LTS and Red Hat 7 (RHEL7) operating systems. The difference between Ubuntu 14.04 LTS and Ubuntu 16.04 LTS is that 14.04 uses upstart and 16.04 uses systemd which is why the debian packages do not run without modifications on Ubuntu 16.04 LTS. This component provides systemctl scripts for running the Security Server on Ubuntu 16.04 LTS. **N.B.** Ubuntu 16.04 LTS is **NOT officially supported** by X-Road.
+
+**Developer**:
+Marko Valing
+
+**Contact info**:
+https://github.com/tuudik/xroad_systemd/issues
+
+**Download location**:
+https://github.com/tuudik/xroad_systemd/
+
+**Documentation**:
+https://github.com/tuudik/xroad_systemd/
+
+**Development stage**:
+Up-to-date, last updated 02/2018.
+
+**Licence**:
+The MIT License (MIT). https://github.com/tuudik/xroad_systemd/blob/master/LICENSE
+
+**Technology used**:
+Bash, systemd.
+
+**Component requirements**:
+X-Road Security Server, Ubuntu 16.04 LTS.
