@@ -11,7 +11,9 @@ You can get started with development and testing without your own Security Serve
 installation using [Example Adapter](https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter)
 service. Another alternative for development/testing is [X-Road Test Service](https://github.com/petkivim/x-road-test-service). All the examples in this repository use Example Adapter service.
 
-In addition, this repository also provides a [list](COMPONENTS.md) of reusable X-Road components implemented by the X-Road community.
+**List of Reusable X-Road Components**
+
+In addition, this repository also provides a [list](COMPONENTS.md) of reusable X-Road components implemented by the X-Road community. Before adding new components to the list please take a look at the [Component Description Guidelines](COMPONENT_DESCRIPTION_GUIDELINES.md).
 
 ## Prerequisites
 
