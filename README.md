@@ -41,20 +41,18 @@ can be accessed at http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint
 This example demonstrates how to invoke ```helloService``` service with one request parameter.
 
 ```
-import com.pkrete.xrd4j.client.SOAPClient;
-import com.pkrete.xrd4j.client.SOAPClientImpl;
-import com.pkrete.xrd4j.client.deserializer.AbstractResponseDeserializer;
-import com.pkrete.xrd4j.client.deserializer.ServiceResponseDeserializer;
-import com.pkrete.xrd4j.client.serializer.AbstractServiceRequestSerializer;
-import com.pkrete.xrd4j.client.serializer.ServiceRequestSerializer;
-import com.pkrete.xrd4j.common.member.ConsumerMember;
-import com.pkrete.xrd4j.common.member.ProducerMember;
-import com.pkrete.xrd4j.common.message.ServiceRequest;
-import com.pkrete.xrd4j.common.message.ServiceResponse;
-import com.pkrete.xrd4j.common.util.MessageHelper;
-import com.pkrete.xrd4j.common.util.SOAPHelper;
-
-import javax.xml.soap.*;
+import fi.vrk.xrd4j.client.SOAPClient;
+import fi.vrk.xrd4j.client.SOAPClientImpl;
+import fi.vrk.xrd4j.client.deserializer.ServiceResponseDeserializer;
+import fi.vrk.xrd4j.client.serializer.ServiceRequestSerializer;
+import fi.vrk.xrd4j.common.member.ConsumerMember;
+import fi.vrk.xrd4j.common.member.ProducerMember;
+import fi.vrk.xrd4j.common.message.ServiceRequest;
+import fi.vrk.xrd4j.common.message.ServiceResponse;
+import fi.vrk.xrd4j.common.util.MessageHelper;
+import fi.vrk.xrd4j.common.util.SOAPHelper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 ...
 ...
 String url = "http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint";
