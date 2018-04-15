@@ -25,7 +25,7 @@ Before adding new components to the list please take a look at the [Component De
 * [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
 * [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-1604)
 * [Security Server Log Archiver](#security-server-log-archiver)
-* [X-Road Type Providers (XRoadProvider/.NET)](#x-road-type-providers-xroadprovider-net)
+* [X-Road Type Providers (XRoadProvider/.NET)](#x-road-type-providers-xroadprovidernet)
 
 ## X-Road Portal MISP2
 
