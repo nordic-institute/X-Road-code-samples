@@ -25,6 +25,7 @@ Before adding new components to the list please take a look at the [Component De
 * [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
 * [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-1604)
 * [Security Server Log Archiver](#security-server-log-archiver)
+* [X-Road Type Providers (XRoadProvider/.NET)](#x-road-type-providers-xroadprovidernet)
 
 ## X-Road Portal MISP2
 
@@ -644,3 +645,46 @@ PHP, Nginx/Apache.
 
 **Component requirements**:
 Web server (Apache, Nginx etc), PHP.
+
+
+# X-Road Type Providers (XRoadProvider/.NET)
+
+**Component name:**
+XRoadProvider
+
+**Component type:**
+Developer tool
+
+**Description:**
+Collection of F# type providers which offer easier integration with X-Road web services
+on .NET platform. Available type providers offer service interface generation from service description
+documents (WSDL) and exploration of X-Road environment instance by supporting development environment
+features through X-Road metaservices.
+
+**Owner (Developer):**
+Janno Põldma
+
+**Owner contact info:**
+[@janno-p](https://github.com/janno-p)
+
+**Download location:**
+
+* [NuGet](https://www.nuget.org/packages/XRoadProvider/)
+* [GitHub](https://github.com/janno-p/XRoadProvider/releases)
+
+**Documentation:**
+http://janno-p.github.io/XRoadProvider/
+
+**Development stage:**
+up-to-date (last modified 10.04.2018)
+
+**Licence:**
+[MIT](http://janno-p.github.io/XRoadProvider/articles/license.html)
+
+**Technology used:**
+F#, .NET, Mono
+
+**Component requirements:**
+Primary target is X-Road v6 (message protocol version 4.0); from older versions message protocol
+version 3.1 is supported (document/literal); message protocol version 2.0 (rpc/encoded) is broken and
+will be probably removed.
