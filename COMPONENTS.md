@@ -720,3 +720,10 @@ The MIT License (MIT). https://github.com/petkivim/x-road-simple-stats-collector
 
 **Technology used**:
 Node.js, npm.
+
+**Component requirements:**
+X-Road v6 Protocol for Downloading Configuration V1 and V2; the script needs to
+have access to the server (central server, configuration proxy) that is
+distributing the global configuration (`downloadURL` element in configuration
+anchor) - in some environments access to the `downloadURL` might be restricted
+to registered security servers only.
