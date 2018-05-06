@@ -26,6 +26,7 @@ Before adding new components to the list please take a look at the [Component De
 * [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-1604)
 * [Security Server Log Archiver](#security-server-log-archiver)
 * [X-Road Type Providers (XRoadProvider/.NET)](#x-road-type-providers-xroadprovidernet)
+* [X-Road Simple Stats Collector](#x-road-simple-stats-collector)
 
 ## X-Road Portal MISP2
 
@@ -688,3 +689,34 @@ F#, .NET, Mono
 Primary target is X-Road v6 (message protocol version 4.0); from older versions message protocol
 version 3.1 is supported (document/literal); message protocol version 2.0 (rpc/encoded) is broken and
 will be probably removed.
+
+## X-Road Simple Stats Collector
+
+**Component type**:
+Functional.
+
+**Description**:
+This is a simple statistics collector for the X-Road V6 that reads the number
+of members, security servers, subsystems and number of members per member
+class from global configuration. The results are returned as a JSON object.
+
+**Developer**:
+Petteri Kivimäki
+
+**Contact info**:
+https://github.com/petkivim/x-road-simple-stats-collector/issues
+
+**Download location**:
+https://github.com/petkivim/x-road-simple-stats-collector/
+
+**Documentation**:
+https://github.com/petkivim/x-road-simple-stats-collector/
+
+**Development stage**:
+Up-to-date, last updated 05/2018.
+
+**Licence**:
+The MIT License (MIT). https://github.com/petkivim/x-road-simple-stats-collector/blob/master/LICENSE.txt
+
+**Technology used**:
+Node.js, npm.
