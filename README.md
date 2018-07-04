@@ -8,7 +8,7 @@ using different technologies and they help you to get started quickly. Currently
 there are examples available in Java and JavaScript.
 
 You can get started with development and testing without your own Security Server
-installation using [Example Adapter](https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter)
+installation using [Example Adapter](https://github.com/nordic-institute/xrd4j/tree/master/example-adapter)
 service. Another alternative for development/testing is [X-Road Test Service](https://github.com/petkivim/x-road-test-service). All the examples in this repository use Example Adapter service.
 
 **List of Reusable X-Road Components**
@@ -17,7 +17,7 @@ In addition, this repository also provides a [list](COMPONENTS.md) of reusable X
 
 ## Prerequisites
 
-Setup [Example Adapter](https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter) service:
+Setup [Example Adapter](https://github.com/nordic-institute/xrd4j/tree/master/example-adapter) service:
 
 * Clone the repository, compile the XRd4J library, compile Example Adapter, start Example Adapter.
 
@@ -36,7 +36,7 @@ can be accessed at http://localhost:8080/example-adapter-x.x.x-SNAPSHOT/Endpoint
 
 ### XRd4J
 
-[XRd4J](https://github.com/vrk-kpa/xrd4j) is a Java library for building X-Road v6 Adapter Servers and clients.
+[XRd4J](https://github.com/nordic-institute/xrd4j) is a Java library for building X-Road v6 Adapter Servers and clients.
 
 This example demonstrates how to invoke ```helloService``` service with one request parameter.
 
