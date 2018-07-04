@@ -172,21 +172,22 @@ Adapter.
 REST Adapter Service is a component that sits between X-Road Security Server and a REST service. REST Adapter Service implements X-Road v4.0 SOAP profile and it's compatible with X-Road v6.4 and above. The component makes the integration of REST services to X-Road fast and easy automating REST-SOAP and SOAP-REST conversions.
 
 **Developer**:
-Finnish Population Register Centre (VRK)
+Nordic Institute for Interoperability Solutions (NIIS)
 
 **Contact info**:
+info@niis.org
 
 **Download location**:
-https://github.com/vrk-kpa/REST-adapter-service
+https://github.com/nordic-institute/REST-adapter-service
 
 **Documentation**:
-https://github.com/vrk-kpa/REST-adapter-service/tree/master/documentation
+https://github.com/nordic-institute/REST-adapter-service/tree/master/documentation
 
 **Development stage**:
-Up-to-date, last updated 02/2018.
+Up-to-date, last updated 07/2018.
 
 **Licence**:
-The MIT License (MIT). https://github.com/vrk-kpa/REST-adapter-service/blob/master/LICENSE
+The MIT License (MIT). https://github.com/nordic-institute/REST-adapter-service/blob/master/LICENSE
 
 **Technology used**:
 Java.
@@ -211,21 +212,22 @@ Modules:
 - rest : HTTP clients that can be used for sending requests to web services from Adapter Server.
 
 **Developer**:
-Finnish Population Register Centre (VRK)
+Nordic Institute for Interoperability Solutions (NIIS)
 
 **Contact info**:
+info@niis.org
 
 **Download location**:
-https://github.com/vrk-kpa/xrd4j/
+https://github.com/nordic-institute/xrd4j/
 
 **Documentation**:
-https://github.com/vrk-kpa/xrd4j/
+https://github.com/nordic-institute/xrd4j/
 
 **Development stage**:
-Up-to-date, last updated 02/2018.
+Up-to-date, last updated 07/2018.
 
 **Licence**:
-The MIT License (MIT). https://github.com/vrk-kpa/xrd4j/blob/master/LICENSE
+The MIT License (MIT). https://github.com/nordic-institute/xrd4j/blob/master/LICENSE
 
 **Technology used**:
 Java.
@@ -309,21 +311,22 @@ X-Road Adapter Example provides an example implementation of a web service that'
 - helloService : returns a hello message with the given name
 
 **Developer**:
-Finnish Population Register Centre (VRK)
+Nordic Institute for Interoperability Solutions (NIIS)
 
 **Contact info**:
+info@niis.org
 
 **Download location**:
-https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter
+https://github.com/nordic-institute/xrd4j/tree/master/example-adapter
 
 **Documentation**:
-https://github.com/vrk-kpa/xrd4j/tree/master/example-adapter
+https://github.com/nordic-institute/xrd4j/tree/master/example-adapter
 
 **Development stage**:
-Up-to-date, last updated 02/2018.
+Up-to-date, last updated 07/2018.
 
 **Licence**:
-The MIT License (MIT). https://github.com/vrk-kpa/xrd4j/blob/master/LICENSE
+The MIT License (MIT). https://github.com/nordic-institute/xrd4j/blob/master/LICENSE
 
 **Technology used**:
 Java.
