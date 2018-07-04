@@ -194,7 +194,6 @@ Java.
 
 **Component requirements**:
 The component can be run on Linux / Windows as a standalone JAR (Java 7 or later), Tomcat (Tomcat 7 or later) web app or Docker container. The component is compatible with X-Road v6.4 and later.
-See also: https://github.com/educloudalliance/xroad-rest-gateway/wiki/Requirements
 
 ## XRd4J
 
