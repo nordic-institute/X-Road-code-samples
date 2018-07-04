@@ -1,3 +1,5 @@
+![European Regional Development Fund](img/EU.png "European Regional Development Fund - DO NOT REMOVE THIS IMAGE BEFORE 01.06.2022")
+
 # X-Road Components
 
 This page contains a list of reusable X-Road components implemented by the
