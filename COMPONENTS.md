@@ -344,22 +344,23 @@ Functional component.
 X-Road Test Service is a testing tool for X-Road v6.4 and above. The implementation is based on XRd4J library. Test Service application provides a single service that takes as parameters the size of the response body and the size of the response attachment part. The size defines the number of characters in the response.
 
 **Developer**:
-Petteri Kivimäki
+Nordic Institute for Interoperability Solutions (NIIS)
 
 **Contact info**:
+info@niis.org
 
 **Download location**:
-https://github.com/petkivim/x-road-test-service/releases
+https://github.com/nordic-institute/x-road-test-service
 
 **Documentation**:
-https://github.com/petkivim/x-road-test-service
+https://github.com/nordic-institute/x-road-test-service
 
 **Development stage**:
-Up-to-date, last updated 02/2017.
+Up-to-date, last updated 09/2018.
 
 **Licence**:
 MIT
-https://github.com/petkivim/x-road-test-service/blob/master/LICENSE
+https://github.com/nordic-institute/x-road-test-service/blob/master/LICENSE
 
 **Technology used**:
 Java.
