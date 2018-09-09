@@ -1,7 +1,7 @@
 package org.niis.xrd4j_example_client;
 
-import fi.vrk.xrd4j.client.serializer.AbstractServiceRequestSerializer;
-import fi.vrk.xrd4j.common.message.ServiceRequest;
+import org.niis.xrd4j.client.serializer.AbstractServiceRequestSerializer;
+import org.niis.xrd4j.common.message.ServiceRequest;
 
 import javax.xml.soap.SOAPElement;
 import javax.xml.soap.SOAPEnvelope;

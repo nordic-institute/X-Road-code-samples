@@ -14,19 +14,19 @@
     <properties>
         <slf4j.version>1.7.25</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
-        <xrd4j.version>0.3.0-SNAPSHOT</xrd4j.version>
+        <xrd4j.version>0.3.0</xrd4j.version>
         <jdk.version>1.8</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>fi.vrk.xrd4j</groupId>
+            <groupId>org.niis.xrd4j</groupId>
             <artifactId>common</artifactId>
             <version>${xrd4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>fi.vrk.xrd4j</groupId>
+            <groupId>org.niis.xrd4j</groupId>
             <artifactId>client</artifactId>
             <version>${xrd4j.version}</version>
         </dependency>
@@ -108,14 +108,14 @@
     </build>
     <repositories>
         <repository>
-            <id>csc-repo</id>
-            <name>CSC's Maven repository</name>
-            <url>https://maven.csc.fi/repository/internal/</url>
+            <id>niis-repo</id>
+            <name>NIIS's Maven repository</name>
+            <url>https://artifactory.niis.org/xroad-maven-releases</url>
         </repository>
         <repository>
-            <id>csc-snapshot-repo</id>
-            <name>CSC's snapshot Maven repository</name>
-            <url>https://maven.csc.fi/repository/snapshots/</url>
+            <id>niis-snapshot-repo</id>
+            <name>NIIS's snapshot Maven repository</name>
+            <url>https://artifactory.niis.org/xroad-maven-snapshots</url>
         </repository>
     </repositories>
 </project>

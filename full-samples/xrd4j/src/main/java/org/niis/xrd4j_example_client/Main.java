@@ -1,15 +1,15 @@
 package org.niis.xrd4j_example_client;
 
-import fi.vrk.xrd4j.client.SOAPClient;
-import fi.vrk.xrd4j.client.SOAPClientImpl;
-import fi.vrk.xrd4j.client.deserializer.ServiceResponseDeserializer;
-import fi.vrk.xrd4j.client.serializer.ServiceRequestSerializer;
-import fi.vrk.xrd4j.common.member.ConsumerMember;
-import fi.vrk.xrd4j.common.member.ProducerMember;
-import fi.vrk.xrd4j.common.message.ServiceRequest;
-import fi.vrk.xrd4j.common.message.ServiceResponse;
-import fi.vrk.xrd4j.common.util.MessageHelper;
-import fi.vrk.xrd4j.common.util.SOAPHelper;
+import org.niis.xrd4j.client.SOAPClient;
+import org.niis.xrd4j.client.SOAPClientImpl;
+import org.niis.xrd4j.client.deserializer.ServiceResponseDeserializer;
+import org.niis.xrd4j.client.serializer.ServiceRequestSerializer;
+import org.niis.xrd4j.common.member.ConsumerMember;
+import org.niis.xrd4j.common.member.ProducerMember;
+import org.niis.xrd4j.common.message.ServiceRequest;
+import org.niis.xrd4j.common.message.ServiceResponse;
+import org.niis.xrd4j.common.util.MessageHelper;
+import org.niis.xrd4j.common.util.SOAPHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

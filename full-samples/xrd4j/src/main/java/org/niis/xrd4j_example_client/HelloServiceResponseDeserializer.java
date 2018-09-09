@@ -1,6 +1,6 @@
 package org.niis.xrd4j_example_client;
 
-import fi.vrk.xrd4j.client.deserializer.AbstractResponseDeserializer;
+import org.niis.xrd4j.client.deserializer.AbstractResponseDeserializer;
 
 import javax.xml.soap.Node;
 import javax.xml.soap.SOAPException;
