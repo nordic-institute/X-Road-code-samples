@@ -29,7 +29,7 @@ Before adding new components to the list please take a look at the [Component De
 * [Security Server Log Archiver](#security-server-log-archiver)
 * [X-Road Type Providers (XRoadProvider/.NET)](#x-road-type-providers-xroadprovidernet)
 * [X-Road Simple Stats Collector](#x-road-simple-stats-collector)
-* [XRoadLib](#x-road-lib)
+* [XRoadLib](#xroadlib)
 
 ## X-Road Portal MISP2
 
