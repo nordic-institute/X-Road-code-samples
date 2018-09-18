@@ -29,6 +29,7 @@ Before adding new components to the list please take a look at the [Component De
 * [Security Server Log Archiver](#security-server-log-archiver)
 * [X-Road Type Providers (XRoadProvider/.NET)](#x-road-type-providers-xroadprovidernet)
 * [X-Road Simple Stats Collector](#x-road-simple-stats-collector)
+* [XRoadLib](#x-road-lib)
 
 ## X-Road Portal MISP2
 
@@ -732,3 +733,44 @@ have access to the server (central server, configuration proxy) that is
 distributing the global configuration (`downloadURL` element in configuration
 anchor) - in some environments access to the `downloadURL` might be restricted
 to registered security servers only.
+
+# XRoadLib
+
+**Component name:**
+XRoadLib
+
+**Component type:**
+Developer tool
+
+**Description:**
+XRoadLib is a .NET library for implementing service interfaces of X-Road 
+providers using Code-First Development approach. Main focus of the library is to 
+support easier service development on X-Road provider side, by extracting service 
+descriptions and serialization logic from types and methods that are described as 
+service contracts. 
+
+**Owner (Developer):**
+Janno Põldma
+
+**Owner contact info:**
+[@janno-p](https://github.com/janno-p)
+
+**Download location:**
+
+* [NuGet](https://www.nuget.org/packages/XRoadLib/)
+* [GitHub](https://github.com/janno-p/XRoadLib/releases)
+
+**Documentation:**
+http://janno-p.github.io/XRoadLib/
+
+**Development stage:**
+Up-to-date, last updated 09/2018.
+
+**Licence:**
+[MIT](http://janno-p.github.io/XRoadLib/articles/license.html)
+
+**Technology used:**
+.NET
+
+**Component requirements:**
+X-Road v6 (message protocol version 4.0).
