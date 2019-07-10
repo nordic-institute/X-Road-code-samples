@@ -46,15 +46,13 @@ RIA. (Developed by AKTORS OÜ - https://www.aktors.ee/).
 Information System Authority Helpdesk, help@ria.ee
 
 **Download location**:
-http://x-road.ee/misp2/
+https://x-tee.ee/packages/live/misp2/
 
 **Documentation**:
-http://x-road.ee/misp2/docs/ (ENG + EST)
-
-Installation manual: http://x-road.ee/misp2/docs/eng/misp2_installation_manual_en.pdf
+https://x-tee.ee/docs/live/misp2/ (ENG + EST)
 
 **Development stage**:
-Up-to-date, last updated 30.12.2015.
+Up-to-date, last updated 10.07.2019.
 
 **Licence**:
 Unknown.
@@ -743,11 +741,11 @@ XRoadLib
 Developer tool
 
 **Description:**
-XRoadLib is a .NET library for implementing service interfaces of X-Road 
-providers using Code-First Development approach. Main focus of the library is to 
-support easier service development on X-Road provider side, by extracting service 
-descriptions and serialization logic from types and methods that are described as 
-service contracts. 
+XRoadLib is a .NET library for implementing service interfaces of X-Road
+providers using Code-First Development approach. Main focus of the library is to
+support easier service development on X-Road provider side, by extracting service
+descriptions and serialization logic from types and methods that are described as
+service contracts.
 
 **Owner (Developer):**
 Janno Põldma
