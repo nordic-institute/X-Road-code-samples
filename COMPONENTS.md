@@ -13,7 +13,7 @@ Before adding new components to the list please take a look at the [Component De
 * [X-Road Generator (X-tee .NET)](#x-road-generator-x-road-net)
 * [J-road](#j-road)
 * [REST Adapter Service](#rest-adapter-service)
-* [XRd4J](#xrd4j)
+* [X-Road Library for Java (XRd4J)](#x-road-library-for-java)
 * [SAP PI X-Road Adapter](#sap-pi-x-road-adapter)
 * [XRDv4WSDLConverter](#xrdv4wsdlconverter)
 * [X-Road Adapter Example](#x-road-adapter-example)
@@ -22,7 +22,7 @@ Before adding new components to the list please take a look at the [Component De
 * [Qure Data Management Platform](#qure-data-management-platform)
 * [X-Road File Service](#x-road-file-service)
 * [X-Road E2E Client](#x-road-e2e-client)
-* [XRdE2E](#xrde2e)
+* [X-Road End-to-End Monitoring Tool (XRdE2E)](#x-road-end-to-end-monitoring-tool)
 * [API Catalog](#api-catalog)
 * [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
 * [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-1604)
@@ -196,7 +196,7 @@ Java.
 **Component requirements**:
 The component can be run on Linux / Windows as a standalone JAR (Java 7 or later), Tomcat (Tomcat 7 or later) web app or Docker container. The component is compatible with X-Road v6.4 and later.
 
-## XRd4J
+## X-Road Library for Java (XRd4J)
 
 **Component type**:
 Developer tool.
@@ -487,13 +487,13 @@ Perl.
 **Component requirements**:
 More information about the requirements: https://github.com/vrk-kpa/xroad-e2e-client#requirements
 
-## XRdE2E
+## X-Road End-to-End Monitoring Tool
 
 **Component type**:
 Functional.
 
 **Description**:
-XRdE2E is an end-to-end monitoring tool for X-Road security servers. Monitoring of the security servers is done using the listMethods meta service. If security server sends a valid response, it means that proxy and signer components are both working fine.
+X-Road End-to-End Monitoring Tool (XRdE2E) is an end-to-end monitoring tool for X-Road security servers. Monitoring of the security servers is done using the listMethods meta service. If security server sends a valid response, it means that proxy and signer components are both working fine.
 
 **Developer**:
 Petteri Kivimäki
