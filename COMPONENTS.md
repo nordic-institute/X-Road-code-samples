@@ -13,7 +13,7 @@ Before adding new components to the list please take a look at the [Component De
 * [X-Road Generator (X-tee .NET)](#x-road-generator-x-road-net)
 * [J-road](#j-road)
 * [REST Adapter Service](#rest-adapter-service)
-* [X-Road Library for Java (XRd4J)](#x-road-library-for-java)
+* [X-Road Library for Java (XRd4J)](#x-road-library-for-java-xrd4j)
 * [SAP PI X-Road Adapter](#sap-pi-x-road-adapter)
 * [XRDv4WSDLConverter](#xrdv4wsdlconverter)
 * [X-Road Adapter Example](#x-road-adapter-example)
@@ -22,7 +22,7 @@ Before adding new components to the list please take a look at the [Component De
 * [Qure Data Management Platform](#qure-data-management-platform)
 * [X-Road File Service](#x-road-file-service)
 * [X-Road E2E Client](#x-road-e2e-client)
-* [X-Road End-to-End Monitoring Tool (XRdE2E)](#x-road-end-to-end-monitoring-tool)
+* [X-Road End-to-End Monitoring Tool (XRdE2E)](#x-road-end-to-end-monitoring-tool-xrde2e)
 * [API Catalog](#api-catalog)
 * [X-Road v6 Global Configuration Parser](#x-road-v6-global-configuration-parser)
 * [Systemd for X-Road v6 on Ubuntu 16.04](#systemd-for-x-road-v6-on-ubuntu-1604)
@@ -487,7 +487,7 @@ Perl.
 **Component requirements**:
 More information about the requirements: https://github.com/vrk-kpa/xroad-e2e-client#requirements
 
-## X-Road End-to-End Monitoring Tool
+## X-Road End-to-End Monitoring Tool (XRdE2E)
 
 **Component type**:
 Functional.
