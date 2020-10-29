@@ -30,6 +30,7 @@ Before adding new components to the list please take a look at the [Component De
 * [X-Road Type Providers (XRoadProvider/.NET)](#x-road-type-providers-xroadprovidernet)
 * [X-Road Simple Stats Collector](#x-road-simple-stats-collector)
 * [XRoadLib](#xroadlib)
+* [X-Road REST and SOAP adapters deployment](#x-road-rest-and-soap-adapters-deployment)
 
 ## X-Road Portal MISP2
 
@@ -772,3 +773,35 @@ Up-to-date, last updated 09/2018.
 
 **Component requirements:**
 X-Road v6 (message protocol version 4.0).
+
+## X-Road REST and SOAP adapters deployment
+
+**Component type**:
+Adapter
+
+**Description**:
+Toolset for deploying the [X-Road REST Adapter Service](https://github.com/nordic-institute/REST-adapter-service) and [xroad-universal-soap](https://github.com/nanndoj/xroad-universal-soap) proxy in tandem, as a [system service](https://en.wikipedia.org/wiki/Systemd) with [Docker Compose](https://docs.docker.com/compose/).
+
+**Owner (Developer)**:
+[Digital Iceland](https://www.island.is/en).  (Developed by [Björn Þór Jónsson](https://about.me/bthj) / [Origo](https://www.origo.is/english/)).
+
+**Contact info**:
+[@bthj](https://github.com/bthj)
+
+**Download location**:
+https://github.com/bthj/xroad-rest-soap-adapters
+
+**Documentation**:
+https://github.com/bthj/xroad-rest-soap-adapters/blob/main/README.md
+
+**Development stage**:
+Up-to-date, last updated 2020-10-28.
+
+**Licence**:
+[MIT](https://github.com/bthj/xroad-rest-soap-adapters/blob/main/LICENSE)
+
+**Technology used**:
+GNU Bash shell, Docker Compose, systemd.
+
+**Component requirements**:
+Ubuntu 18.04 LTS or RHEL 7 or RHEL 8; Docker and Docker Compose.
