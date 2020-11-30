@@ -31,6 +31,7 @@ Before adding new components to the list please take a look at the [Component De
 * [X-Road Simple Stats Collector](#x-road-simple-stats-collector)
 * [XRoadLib](#xroadlib)
 * [X-Road REST and SOAP adapters deployment](#x-road-rest-and-soap-adapters-deployment)
+* [X-Road Drive](#x-road-drive)
 
 ## X-Road Portal MISP2
 
@@ -805,3 +806,27 @@ GNU Bash shell, Docker Compose, systemd.
 
 **Component requirements**:
 Ubuntu 18.04 LTS or RHEL 7 or RHEL 8; Docker and Docker Compose.
+
+## X-Road Drive
+
+**Component type:** Adapter
+
+**Description:** The X-Road Drive is a file service to manage and share files over X-Road. As a sample application, it helps you to understand the X-Road technology, and shows that the REST support potentially expands service variety on X-Road.
+
+It also demonstrates how to use metadata on X-Road to improve your application. The X-Road Drive harmonizes in metadata service and the Security Server's REST administrative API.
+
+**Owner (Developer):** Yamato Kataoka
+
+**Owner contact info:** https://github.com/yamatokataoka/xroad-drive/issues
+
+**Download location:** https://github.com/yamatokataoka/xroad-drive
+
+**Documentation:** https://github.com/yamatokataoka/xroad-drive
+
+**Development stage:** Up-to-date, last updated 11/2020.
+
+**Licence:** The MIT License (MIT). https://github.com/yamatokataoka/xroad-drive/blob/develop/LICENSE
+
+**Technology used:** Java, Vue.js, Go
+
+**Component requirements:** Docker and Docker Compose.
