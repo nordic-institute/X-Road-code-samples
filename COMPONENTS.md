@@ -58,7 +58,7 @@ https://github.com/nordic-institute/misp2-web-app/blob/master/readme.md
 Up-to-date, last updated 01.07.2021.
 
 **Licence**:
-Unknown.
+The MIT License (MIT). https://github.com/nordic-institute/misp2-web-app/blob/master/LICENSE.txt
 
 **Technology used**:
 Java, Orbeon, PostgreSQL.
