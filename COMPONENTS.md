@@ -32,6 +32,7 @@ Before adding new components to the list please take a look at the [Component De
 * [XRoadLib](#xroadlib)
 * [X-Road REST and SOAP adapters deployment](#x-road-rest-and-soap-adapters-deployment)
 * [X-Road Drive](#x-road-drive)
+* [X-Road Metrics](#x-road-metrics)
 
 ## X-Road Portal MISP2
 
@@ -52,7 +53,7 @@ info@niis.org
 https://artifactory.niis.org/xroad-extensions-release-deb
 
 **Documentation**:
-https://github.com/nordic-institute/misp2-web-app/blob/master/readme.md
+https://github.com/nordic-institute/misp2-web-app
 
 **Development stage**:
 Up-to-date, last updated 01.07.2021.
@@ -831,3 +832,36 @@ It also demonstrates how to use metadata on X-Road to improve your application. 
 **Technology used:** Java, Vue.js, Go
 
 **Component requirements:** Docker and Docker Compose.
+
+## X-Road Metrics
+
+**Component type**:
+Functional.
+
+**Description**:
+X-Road Metrics is a tool for collecting, storing and analysing reporting data and metrics from an X-Road ecosystem. The data can be used to measure usage of individual services, understand dependencies and relationships between different information systems and services, monitor service health, etc. Also, the information can be published as open data.
+
+**Developer**:
+- Current: Nordic Institute for Interoperability Solutions (NIIS)
+- Previous: RIA (Developed by [STACC (Software Technology and Applications Competence Center)](https://www.stacc.ee/en/) according to procurement [RHR 183990](https://riigihanked.riik.ee/register/hange/183990))
+
+**Contact info**:
+info@niis.org
+
+**Download location**:
+https://artifactory.niis.org/xroad-extensions-release-deb
+
+**Documentation**:
+https://github.com/nordic-institute/X-Road-Metrics
+
+**Development stage**:
+Up-to-date, last updated 01.07.2021.
+
+**Licence**:
+The MIT License (MIT). https://github.com/nordic-institute/X-Road-Metrics/blob/master/LICENSE.MD
+
+**Technology used**:
+Python, R, MongoDB, PostgreSQL.
+
+**Component requirements**:
+Python, R, MongoDB, PostgreSQL.
