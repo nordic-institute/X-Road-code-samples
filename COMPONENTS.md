@@ -42,19 +42,20 @@ Adapter, functional component, developer tool.
 MISP2 portal can be used for consuming X-Road services both for production environments and testing of services.
 
 **Developer**:
-RIA. (Developed by AKTORS OÜ - https://www.aktors.ee/).
+- Current: Nordic Institute for Interoperability Solutions (NIIS)
+- Previous: RIA (Developed by AKTORS OÜ - https://www.aktors.ee/).
 
 **Contact info**:
-Information System Authority Helpdesk, help@ria.ee
+info@niis.org
 
 **Download location**:
-https://x-tee.ee/packages/live/misp2/
+https://artifactory.niis.org/xroad-extensions-release-deb
 
 **Documentation**:
-https://x-tee.ee/docs/live/misp2/ (ENG + EST)
+https://github.com/nordic-institute/misp2-web-app/blob/master/readme.md
 
 **Development stage**:
-Up-to-date, last updated 10.07.2019.
+Up-to-date, last updated 01.07.2021.
 
 **Licence**:
 Unknown.
@@ -63,7 +64,7 @@ Unknown.
 Java, Orbeon, PostgreSQL.
 
 **Component requirements**:
-Ubuntu Server 14.04 LTS, 64 bit; X-Road v5/v6; Java 6, PostgreSQL 8.4.
+Ubuntu Server 18.04 LTS, 64 bit; X-Road; Java 8, PostgreSQL 10.
 
 ## X-Road Personal Data Monitor
 
