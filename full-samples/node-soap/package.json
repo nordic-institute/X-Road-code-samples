@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nordic-institute/X-Road-code-samples#readme",
   "dependencies": {
-    "soap": "^0.23.0"
+    "soap": "^0.43.0"
   }
 }
