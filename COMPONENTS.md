@@ -8,16 +8,11 @@ pull request or send the component info to the NIIS by email (community at niis.
 Before adding new components to the list please take a look at the [Component Description Guidelines](COMPONENT_DESCRIPTION_GUIDELINES.md).
 
 ## Table of Contents
-* [X-Road Portal MISP2](#x-road-portal-misp2)
 * [X-Road Personal Data Monitor](#x-road-personal-data-monitor)
 * [X-Road Generator (X-tee .NET)](#x-road-generator-x-road-net)
 * [J-road](#j-road)
-* [REST Adapter Service](#rest-adapter-service)
-* [X-Road Library for Java (XRd4J)](#x-road-library-for-java-xrd4j)
 * [SAP PI X-Road Adapter](#sap-pi-x-road-adapter)
 * [XRDv4WSDLConverter](#xrdv4wsdlconverter)
-* [X-Road Adapter Example](#x-road-adapter-example)
-* [X-Road Test Service](#x-road-test-service)
 * [X-Road Test Client](#x-road-test-client)
 * [Qure Data Management Platform](#qure-data-management-platform)
 * [X-Road File Service](#x-road-file-service)
@@ -32,40 +27,6 @@ Before adding new components to the list please take a look at the [Component De
 * [XRoadLib](#xroadlib)
 * [X-Road REST and SOAP adapters deployment](#x-road-rest-and-soap-adapters-deployment)
 * [X-Road Drive](#x-road-drive)
-* [X-Road Metrics](#x-road-metrics)
-
-## X-Road Portal MISP2
-
-**Component type**:
-Adapter, functional component, developer tool.
-
-**Description**:
-MISP2 portal can be used for consuming X-Road services both for production environments and testing of services.
-
-**Developer**:
-- Current: Nordic Institute for Interoperability Solutions (NIIS)
-- Previous: RIA (Developed by AKTORS OÜ - https://www.aktors.ee/).
-
-**Contact info**:
-info@niis.org
-
-**Download location**:
-https://artifactory.niis.org/xroad-extensions-release-deb
-
-**Documentation**:
-https://github.com/nordic-institute/misp2-web-app
-
-**Development stage**:
-Up-to-date, last updated 01.07.2021.
-
-**Licence**:
-The MIT License (MIT). https://github.com/nordic-institute/misp2-web-app/blob/master/LICENSE.txt
-
-**Technology used**:
-Java, Orbeon, PostgreSQL.
-
-**Component requirements**:
-Ubuntu Server 18.04 LTS, 64 bit; X-Road; Java 8, PostgreSQL 10.
 
 ## X-Road Personal Data Monitor
 
@@ -168,77 +129,6 @@ Java.
 **Component requirements**:
 Spring Framework.
 
-## REST Adapter Service
-
-**Component type**:
-Adapter.
-
-**Description**:
-REST Adapter Service is a component that sits between X-Road Security Server and a REST service. REST Adapter Service implements X-Road v4.0 SOAP profile and it's compatible with X-Road v6.4 and above. The component makes the integration of REST services to X-Road fast and easy automating REST-SOAP and SOAP-REST conversions.
-
-**Developer**:
-Nordic Institute for Interoperability Solutions (NIIS)
-
-**Contact info**:
-info@niis.org
-
-**Download location**:
-https://github.com/nordic-institute/REST-adapter-service
-
-**Documentation**:
-https://github.com/nordic-institute/REST-adapter-service/tree/master/documentation
-
-**Development stage**:
-Up-to-date, last updated 07/2018.
-
-**Licence**:
-The MIT License (MIT). https://github.com/nordic-institute/REST-adapter-service/blob/master/LICENSE
-
-**Technology used**:
-Java.
-
-**Component requirements**:
-The component can be run on Linux / Windows as a standalone JAR (Java 7 or later), Tomcat (Tomcat 7 or later) web app or Docker container. The component is compatible with X-Road v6.4 and later.
-
-## X-Road Library for Java (XRd4J)
-
-**Component type**:
-Developer tool.
-
-**Description**:
-XRd4J is a Java library for building X-Road v6 Adapter Servers and clients. The library implements X-Road v6 SOAP profile v4.0 and Service Metadata Protocol. The library takes care of serialization and deserialization of SOAP messages: built-in support for standard X-Road SOAP headers, only processing of application specific request and response elements must be implemented.
-
-Modules:
-
-- client : SOAP client that generates X-Road v6 SOAP messages that can be sent to X-Road Security Server. Includes request serializer and response deserializer.
-- server : Provides abstract servlet that can be use as a base class for Adapter Server implementation. Includes request deserializer and response serializer.
-- common : General purpose utilities for processing SOAP messages and X-Road v6 message data models.
-- rest : HTTP clients that can be used for sending requests to web services from Adapter Server.
-
-**Developer**:
-Nordic Institute for Interoperability Solutions (NIIS)
-
-**Contact info**:
-info@niis.org
-
-**Download location**:
-https://github.com/nordic-institute/xrd4j/
-
-**Documentation**:
-https://github.com/nordic-institute/xrd4j/
-
-**Development stage**:
-Up-to-date, last updated 07/2018.
-
-**Licence**:
-The MIT License (MIT). https://github.com/nordic-institute/xrd4j/blob/master/LICENSE
-
-**Technology used**:
-Java.
-
-**Component requirements**:
-Java 7 or later.
-
 ## SAP PI X-Road Adapter
 
 **Component type**:
@@ -302,74 +192,6 @@ Java.
 
 **Component requirements**:
 Java SDK 8. Supported X-road protocol versions: 2, 3, 4.
-
-## X-Road Adapter Example
-
-**Component type**:
-Adapter.
-
-**Description**:
-X-Road Adapter Example provides an example implementation of a web service that's compatible with X-Road version 6.4 and later. The implementation is based on XRd4J library. The service contains a single class that implements two services:
-
-- getRandom : returns a random number between 1-100
-- helloService : returns a hello message with the given name
-
-**Developer**:
-Nordic Institute for Interoperability Solutions (NIIS)
-
-**Contact info**:
-info@niis.org
-
-**Download location**:
-https://github.com/nordic-institute/xrd4j/tree/master/example-adapter
-
-**Documentation**:
-https://github.com/nordic-institute/xrd4j/tree/master/example-adapter
-
-**Development stage**:
-Up-to-date, last updated 07/2018.
-
-**Licence**:
-The MIT License (MIT). https://github.com/nordic-institute/xrd4j/blob/master/LICENSE
-
-**Technology used**:
-Java.
-
-**Component requirements**:
-The component can be run on Linux / Windows as a standalone JAR (Java 7 or later), Tomcat (Tomcat 7 or later) web app or Docker container. The component is compatible with X-Road v6.4 and later.
-
-## X-Road Test Service
-
-**Component type**:
-Functional component.
-
-**Description**:
-X-Road Test Service is a testing tool for X-Road v6.4 and above. The implementation is based on XRd4J library. Test Service application provides a single service that takes as parameters the size of the response body and the size of the response attachment part. The size defines the number of characters in the response.
-
-**Developer**:
-Nordic Institute for Interoperability Solutions (NIIS)
-
-**Contact info**:
-info@niis.org
-
-**Download location**:
-https://github.com/nordic-institute/x-road-test-service
-
-**Documentation**:
-https://github.com/nordic-institute/x-road-test-service
-
-**Development stage**:
-Up-to-date, last updated 09/2018.
-
-**Licence**:
-MIT
-https://github.com/nordic-institute/x-road-test-service/blob/master/LICENSE
-
-**Technology used**:
-Java.
-
-**Component requirements**:
-The component can be run on Linux / Windows as a standalone JAR (Java 7 or later), Tomcat (Tomcat 7 or later) web app or Docker container. The component is compatible with X-Road v6.4 and later.
 
 ## X-Road Test Client
 
@@ -832,36 +654,3 @@ It also demonstrates how to use metadata on X-Road to improve your application. 
 **Technology used:** Java, Vue.js, Go
 
 **Component requirements:** Docker and Docker Compose.
-
-## X-Road Metrics
-
-**Component type**:
-Functional.
-
-**Description**:
-X-Road Metrics is a tool for collecting, storing and analysing reporting data and metrics from an X-Road ecosystem. The data can be used to measure usage of individual services, understand dependencies and relationships between different information systems and services, monitor service health, etc. Also, the information can be published as open data.
-
-**Developer**:
-- Current: Nordic Institute for Interoperability Solutions (NIIS)
-- Previous: RIA (Developed by [STACC (Software Technology and Applications Competence Center)](https://www.stacc.ee/en/) according to procurement [RHR 183990](https://riigihanked.riik.ee/register/hange/183990))
-
-**Contact info**:
-info@niis.org
-
-**Download location**:
-https://artifactory.niis.org/xroad-extensions-release-deb
-
-**Documentation**:
-https://github.com/nordic-institute/X-Road-Metrics
-
-**Development stage**:
-Up-to-date, last updated 01.07.2021.
-
-**Licence**:
-The MIT License (MIT). https://github.com/nordic-institute/X-Road-Metrics/blob/master/LICENSE.MD
-
-**Technology used**:
-Python, R, MongoDB, PostgreSQL.
-
-**Component requirements**:
-Python, R, MongoDB, PostgreSQL.
