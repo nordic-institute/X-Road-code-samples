@@ -4,7 +4,7 @@
 
 This page contains a list of reusable X-Road components implemented by the
 X-Road community. If you know a tool that should be in this list you can make a
-pull request or send the component info to the NIIS by email (community at niis.org).
+pull request or send the component info to the NIIS by email (x-road at niis.org).
 Before adding new components to the list please take a look at the [Component Description Guidelines](COMPONENT_DESCRIPTION_GUIDELINES.md).
 
 ## Table of Contents
