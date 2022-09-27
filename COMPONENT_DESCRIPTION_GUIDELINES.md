@@ -1,25 +1,25 @@
-# X-Road Reusable Component Description Guidelines
+# X-Road Custom Extension Description Guidelines
 
-For each new component, the following info should be filled in.
+For each new extension, the following info should be filled in.
 
-**Component name:** name of the component.
+**Extension name:** name of the extension.
 
-**Component type:** one of the following - functional component (like MISP2), adapters (like REST Adapter Service), developer tool (XRd4J).
+**Extension type:** one of the following - functional extension (like MISP2), adapters (like REST Adapter Service), developer tool (XRd4J).
 
-**Description:** short description of the component (couple of sentences; the majority of info should be with the component).
+**Description:** short description of the extension (couple of sentences; the majority of info should be with the extension).
 
-**Owner (Developer):** Company or developer who owns the component. If the actual developer is another company, please write their name also.
+**Owner (Developer):** Company or developer who owns the extension. If the actual developer is another company, please write their name also.
 
-**Owner contact info:** General contact info for questions about the component - for example contact person name, phone, website, email
+**Owner contact info:** General contact info for questions about the extension - for example contact person name, phone, website, email
 
-**Download location:** link to component location.
+**Download location:** link to extension location.
 
-**Documentation:** links to component documentation (can be a link to documentation folder or separate links to each document).
+**Documentation:** links to extension documentation (can be a link to documentation folder or separate links to each document).
 
-**Development stage:** the development stage of the component: in-development, abandoned (with date last modified), up-to-date (with date last modified?).
+**Development stage:** the development stage of the extension: in-development, abandoned (with date last modified), up-to-date (with date last modified?).
 
-**Licence:** is the component open-source, free to use or commercial? Link to component licence file, if available.
+**Licence:** is the extension open-source, free to use or commercial? Link to extension licence file, if available.
 
-**Technology used:** technology used to develop the component; for example Java.
+**Technology used:** technology used to develop the extension; for example Java.
 
-**Component requirements:** requirements to use the component, for example platforms (Windows, Linux), supported databases, supported X-road version etc.
+**Extension requirements:** requirements to use the extension, for example platforms (Windows, Linux), supported databases, supported X-road version etc.

@@ -1,11 +1,11 @@
 ![European Regional Development Fund](img/EU.png "European Regional Development Fund - DO NOT REMOVE THIS IMAGE BEFORE 01.06.2022")
 
-# X-Road Components
+# X-Road Custom Extensions
 
-This page contains a list of reusable X-Road components implemented by the
+This page contains a list of reusable X-Road custom extensions implemented by the
 X-Road community. If you know a tool that should be in this list you can make a
-pull request or send the component info to the NIIS by email (x-road at niis.org).
-Before adding new components to the list please take a look at the [Component Description Guidelines](COMPONENT_DESCRIPTION_GUIDELINES.md).
+pull request or send the extension info to the NIIS by email (x-road at niis.org).
+Before adding new extensions to the list please take a look at the [Extension Description Guidelines](COMPONENT_DESCRIPTION_GUIDELINES.md).
 
 ## Table of Contents
 * [X-Road Personal Data Monitor](#x-road-personal-data-monitor)
@@ -30,8 +30,8 @@ Before adding new components to the list please take a look at the [Component De
 
 ## X-Road Personal Data Monitor
 
-**Component type**:
-Functional component.
+**Extension type**:
+Functional extension.
 
 **Description**:
 Personal Data Monitor can be used to automatically log personal data transfered with X-Road messages or to log personal data usage in information systems. A person can also query his data usage log with a specific X-Road service.
@@ -57,12 +57,12 @@ MIT.
 **Technology used**:
 Java.
 
-**Component requirements**:
+**Extension requirements**:
 Any Java application server.
 
 ## X-Road Generator (X-Road .NET)
 
-**Component type**:
+**Extension type**:
 Developer tool.
 
 **Description**:
@@ -94,16 +94,16 @@ http://xtee.codeplex.com/license
 **Technology used**:
 .NET.
 
-**Component requirements**:
+**Extension requirements**:
 V2.0 supports x-Road version 5 and down, V3.0 x-Road version 6 (olders are not supported). V3 is in development, v2 is up-to-date.
 
 ## J-road
 
-**Component type**:
+**Extension type**:
 Developer tool.
 
 **Description**:
-Java library which simplifies the consumption and creation of Estonian X-road services through code generation and protocol implementation.
+Java library which simplifies the consumption and creation of Estonian X-Road services through code generation and protocol implementation.
 
 **Developer**:
 Nortal.
@@ -126,16 +126,16 @@ Apache License 2.0.
 **Technology used**:
 Java.
 
-**Component requirements**:
+**Extension requirements**:
 Spring Framework.
 
 ## SAP PI X-Road Adapter
 
-**Component type**:
+**Extension type**:
 Adapter.
 
 **Description**:
-A simple software component for converting X-road SOAP requests between X-road security server and SAP XI/PI integration platform.
+A simple software component for converting X-Road SOAP requests between X-Road Security Server and SAP XI/PI integration platform.
 
 **Developer**:
 Eesti Haigekassa (developed by Intelsys OÜ).
@@ -158,16 +158,16 @@ Open Source (EUPL).
 **Technology used**:
 Java.
 
-**Component requirements**:
+**Extension requirements**:
 Requires Java v1.6 or later, SAP XI/PI (all versions supported). PI database connection is also required (JDBC). Only X-Road v6 SOAP header elements are supported.
 
 ## XRDv4WSDLConverter
 
-**Component type**:
+**Extension type**:
 Developer tool.
 
 **Description**:
-X-road WSDL Converter converts old version 2 and 3 WSDL files into version 4 WSDL.
+X-Road WSDL Converter converts old version 2 and 3 WSDL files into version 4 WSDL.
 
 **Developer**:
 RMIT
@@ -190,13 +190,13 @@ https://github.com/alar-saat/XRDv4WSDLConverter/blob/master/LICENSE.md
 **Technology used**:
 Java.
 
-**Component requirements**:
-Java SDK 8. Supported X-road protocol versions: 2, 3, 4.
+**Extension requirements**:
+Java SDK 8. Supported X-Road protocol versions: 2, 3, 4.
 
 ## X-Road Test Client
 
-**Component type**:
-Functional component.
+**Extension type**:
+Functional extension.
 
 **Description**:
 X-Road Test Client is a testing tool and load generator for X-Road v6.4 and above. The implementation is based on XRd4J library.
@@ -224,14 +224,14 @@ https://github.com/petkivim/x-road-test-client/blob/master/LICENSE
 **Technology used**:
 Java.
 
-**Component requirements**:
-The component can be run on Linux / Windows as a standalone JAR (Java 7 or later). The component is compatible with X-Road v6.4 and later.
+**Extension requirements**:
+The extension can be run on Linux / Windows as a standalone JAR (Java 7 or later). The extension is compatible with X-Road v6.4 and later.
 
 ## Qure Data Management Platform
 
-**Component type:** Functional component.
+**Extension type:** Functional extension.
 
-**Description:** Qure Data Management Platform is a web-based database software for collection, handling, and analysis of data under high quality, security, and robustness requirements. The platform is well suitable for rapid building of registries, biobanks, clinical trials, data management systems, statistical surveys, and other web-based database applications. It has built-in X-Road consumer support, with user interface assisted X-Road security server connection setup. The X-Road queries can be defined and run directly from server side JavaScript.
+**Description:** Qure Data Management Platform is a web-based database software for collection, handling, and analysis of data under high quality, security, and robustness requirements. The platform is well suitable for rapid building of registries, biobanks, clinical trials, data management systems, statistical surveys, and other web-based database applications. It has built-in X-Road consumer support, with user interface assisted X-Road Security Server connection setup. The X-Road queries can be defined and run directly from server side JavaScript.
 
 **Developer:** Quretec, http://www.quretec.com/#qureplatform
 
@@ -247,11 +247,11 @@ The component can be run on Linux / Windows as a standalone JAR (Java 7 or later
 
 **Technology used:** Java, JavaScript.
 
-**Component requirements:** WildFly 10, PostgreSQL 9.5+, Linux, Java 8. X-Road version 5 supported, version 6 support is in development.
+**Extension requirements:** WildFly 10, PostgreSQL 9.5+, Linux, Java 8. X-Road version 5 supported, version 6 support is in development.
 
 ## X-Road File Service
 
-**Component type**:
+**Extension type**:
 Adapter.
 
 **Description**:
@@ -278,16 +278,16 @@ The MIT License (MIT). https://github.com/vrk-kpa/xroad-fileservice/blob/master/
 **Technology used**:
 Java.
 
-**Component requirements**:
+**Extension requirements**:
 Requires JDK 8 to build and JRE 8 to run.
 
 ## X-Road E2E Client
 
-**Component type**:
+**Extension type**:
 Functional.
 
 **Description**:
-Simple monitoring client for X-Road security server. Calls getRandom and helloService tests services though a security server and reports failures by email.
+Simple monitoring client for X-Road Security Server. Calls getRandom and helloService tests services though a Security Server and reports failures by email.
 
 **Developer**:
 Finnish Population Register Centre (VRK)
@@ -310,16 +310,16 @@ The MIT License (MIT). https://github.com/vrk-kpa/xroad-e2e-client/blob/master/L
 **Technology used**:
 Perl.
 
-**Component requirements**:
+**Extension requirements**:
 More information about the requirements: https://github.com/vrk-kpa/xroad-e2e-client#requirements
 
 ## X-Road End-to-End Monitoring Tool (XRdE2E)
 
-**Component type**:
+**Extension type**:
 Functional.
 
 **Description**:
-X-Road End-to-End Monitoring Tool (XRdE2E) is an end-to-end monitoring tool for X-Road security servers. Monitoring of the security servers is done using the listMethods meta service. If security server sends a valid response, it means that proxy and signer components are both working fine.
+X-Road End-to-End Monitoring Tool (XRdE2E) is an end-to-end monitoring tool for X-Road Security Servers. Monitoring of the Security Servers is done using the listMethods meta service. If Security Server sends a valid response, it means that proxy and signer components are both working fine.
 
 **Developer**:
 Petteri Kivimäki
@@ -342,12 +342,12 @@ The MIT License (MIT). https://github.com/petkivim/xrde2e/blob/master/LICENSE
 **Technology used**:
 Java, AngularJS, MongoDB, Docker.
 
-**Component requirements**:
+**Extension requirements**:
 Requires JDK 8 to build, and JRE 8 or Docker to run.
 
 ## API Catalog
 
-**Component type**:
+**Extension type**:
 Functional.
 
 **Description**:
@@ -374,12 +374,12 @@ The MIT License (MIT). https://github.com/vrk-kpa/api-catalog/blob/master/LICENS
 **Technology used**:
 Perl.
 
-**Component requirements**:
+**Extension requirements**:
 Vagrant (tested on 1.8.4), VirtualBox (tested on 5.0.20).
 
 ## X-Road v6 Global Configuration Parser
 
-**Component type**:
+**Extension type**:
 Functional.
 
 **Description**:
@@ -406,16 +406,16 @@ GNU General Public License v3.0. https://github.com/tuudik/xroad6parser/blob/mas
 **Technology used**:
 PHP, JavaScript, AJAX.
 
-**Component requirements**:
+**Extension requirements**:
 Web server (Apache, Nginx etc), PHP.
 
 ## Systemd for X-Road v6 on Ubuntu 16.04
 
-**Component type**:
+**Extension type**:
 Functional.
 
 **Description**:
-X-Road Security Server supports officially Ubuntu 14.04 LTS and Red Hat 7 (RHEL7) operating systems. The difference between Ubuntu 14.04 LTS and Ubuntu 16.04 LTS is that 14.04 uses upstart and 16.04 uses systemd which is why the debian packages do not run without modifications on Ubuntu 16.04 LTS. This component provides systemctl scripts for running the Security Server on Ubuntu 16.04 LTS. **N.B.** Ubuntu 16.04 LTS is **NOT officially supported** by X-Road.
+X-Road Security Server supports officially Ubuntu 14.04 LTS and Red Hat 7 (RHEL7) operating systems. The difference between Ubuntu 14.04 LTS and Ubuntu 16.04 LTS is that 14.04 uses upstart and 16.04 uses systemd which is why the debian packages do not run without modifications on Ubuntu 16.04 LTS. This extension provides systemctl scripts for running the Security Server on Ubuntu 16.04 LTS. **N.B.** Ubuntu 16.04 LTS is **NOT officially supported** by X-Road.
 
 **Developer**:
 Marko Valing
@@ -438,12 +438,12 @@ The MIT License (MIT). https://github.com/tuudik/xroad_systemd/blob/master/LICEN
 **Technology used**:
 Bash, systemd.
 
-**Component requirements**:
+**Extension requirements**:
 X-Road Security Server, Ubuntu 16.04 LTS.
 
 ## Security Server Log Archiver
 
-**Component type**:
+**Extension type**:
 Functional.
 
 **Description**:
@@ -474,16 +474,16 @@ GNU General Public License v3.0. https://github.com/tuudik/archiver/blob/master/
 **Technology used**:
 PHP, Nginx/Apache.
 
-**Component requirements**:
+**Extension requirements**:
 Web server (Apache, Nginx etc), PHP.
 
 
 # X-Road Type Providers (XRoadProvider/.NET)
 
-**Component name:**
+**Extension name:**
 XRoadProvider
 
-**Component type:**
+**Extension type:**
 Developer tool
 
 **Description:**
@@ -515,19 +515,19 @@ up-to-date (last modified 10.04.2018)
 **Technology used:**
 F#, .NET, Mono
 
-**Component requirements:**
+**Extension requirements:**
 Primary target is X-Road v6 (message protocol version 4.0); from older versions message protocol
 version 3.1 is supported (document/literal); message protocol version 2.0 (rpc/encoded) is broken and
 will be probably removed.
 
 ## X-Road Simple Stats Collector
 
-**Component type**:
+**Extension type**:
 Functional.
 
 **Description**:
 This is a simple statistics collector for the X-Road V6 that reads the number
-of members, security servers, subsystems and number of members per member
+of members, Security Servers, subsystems and number of members per member
 class from global configuration. The results are returned as a JSON object.
 
 **Developer**:
@@ -551,19 +551,19 @@ The MIT License (MIT). https://github.com/petkivim/x-road-simple-stats-collector
 **Technology used**:
 Node.js, npm.
 
-**Component requirements:**
+**Extension requirements:**
 X-Road v6 Protocol for Downloading Configuration V1 and V2; the script needs to
 have access to the server (central server, configuration proxy) that is
 distributing the global configuration (`downloadURL` element in configuration
 anchor) - in some environments access to the `downloadURL` might be restricted
-to registered security servers only.
+to registered Security Servers only.
 
 # XRoadLib
 
-**Component name:**
+**Extension name:**
 XRoadLib
 
-**Component type:**
+**Extension type:**
 Developer tool
 
 **Description:**
@@ -596,12 +596,12 @@ Up-to-date, last updated 09/2018.
 **Technology used:**
 .NET
 
-**Component requirements:**
+**Extension requirements:**
 X-Road v6 (message protocol version 4.0).
 
 ## X-Road REST and SOAP adapters deployment
 
-**Component type**:
+**Extension type**:
 Adapter
 
 **Description**:
@@ -628,12 +628,12 @@ Up-to-date, last updated 2020-10-28.
 **Technology used**:
 GNU Bash shell, Docker Compose, systemd.
 
-**Component requirements**:
+**Extension requirements**:
 Ubuntu 18.04 LTS or RHEL 7 or RHEL 8; Docker and Docker Compose.
 
 ## X-Road Drive
 
-**Component type:** Adapter
+**Extension type:** Adapter
 
 **Description:** The X-Road Drive is a file service to manage and share files over X-Road. As a sample application, it helps you to understand the X-Road technology, and shows that the REST support potentially expands service variety on X-Road.
 
@@ -653,4 +653,4 @@ It also demonstrates how to use metadata on X-Road to improve your application. 
 
 **Technology used:** Java, Vue.js, Go
 
-**Component requirements:** Docker and Docker Compose.
+**Extension requirements:** Docker and Docker Compose.
