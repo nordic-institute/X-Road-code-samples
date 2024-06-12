@@ -27,6 +27,7 @@ Before adding new extensions to the list please take a look at the [Extension De
 * [XRoadLib](#xroadlib)
 * [X-Road REST and SOAP adapters deployment](#x-road-rest-and-soap-adapters-deployment)
 * [X-Road Drive](#x-road-drive)
+* [FastAPI X-Road SOAP](#fastapi-x-road-soap)
 
 ## X-Road Personal Data Monitor
 
@@ -654,3 +655,25 @@ It also demonstrates how to use metadata on X-Road to improve your application. 
 **Technology used:** Java, Vue.js, Go
 
 **Extension requirements:** Docker and Docker Compose.
+
+## FastAPI X-Road SOAP
+
+**Extension type:** Library
+
+**Description:** FastAPI X-Road SOAP is a Python library to create X-Road compatible SOAP services.
+
+**Owner (Developer):** Centre of Registers and Information Systems, Estonia
+
+**Owner contact info:** https://github.com/rik-ee/fastapi-xroad-soap/issues
+
+**Download location:** https://pypi.org/project/fastapi-xroad-soap/0.4.7/
+
+**Documentation:** https://github.com/rik-ee/fastapi-xroad-soap/wiki
+
+**Development stage:** Up-to-date, last updated 06/2024.
+
+**Licence:** EUPL 1.2. https://github.com/rik-ee/fastapi-xroad-soap/blob/main/LICENSE
+
+**Technology used:** Python, FastAPI
+
+**Extension requirements:** Python.
