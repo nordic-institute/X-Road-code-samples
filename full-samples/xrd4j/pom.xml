@@ -13,7 +13,7 @@
     </description>	
     <properties>
         <slf4j.version>1.7.30</slf4j.version>
-        <log4j.version>2.17.1</log4j.version>
+        <log4j.version>2.25.3</log4j.version>
         <xrd4j.version>0.4.0</xrd4j.version>
         <jdk.version>1.8</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
